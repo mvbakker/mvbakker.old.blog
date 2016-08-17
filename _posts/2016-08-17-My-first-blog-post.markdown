@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first blog post (test)"
+title:  "My first blog post"
 ---
 
 Welcome to my blog!
