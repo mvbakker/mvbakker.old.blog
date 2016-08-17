@@ -4,4 +4,4 @@ title: CV
 permalink: /cv/
 ---
 
-Ik ben benieuwd. CV volgt.
+CV volgt.
