@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "My first blog post (test)"
-date:   2016-08-13 12:26 +0100
 categories: test
 ---
 This is my first post. I am still trying to set everything up properly. Especially having a hard time with the DNS settings. Yesterday I bought a domain at [transip.nl][transip]. There are nice guides for setting up the DNS settings provided by both Transip and Github Pages.

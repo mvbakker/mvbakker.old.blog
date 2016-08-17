@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: A simple blog by Mitch
+title: A simple blog
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to my blog! This is where I document my projects. As a beginner 
-  I know it can be frustrating to get your projects to work. Here I'll write 
-  down the challenges I came across and how I solved them. Via this blog 
-  I hope I'll be able to help out my fellow struggling enthusiasts by 
-  describing how I solved my challenges. Good luck to you all and remember, 
+  Welcome to my blog! This is where I document my projects. As a beginner
+  I know it can be frustrating to get your projects to work. Here I'll write
+  down the challenges I came across and how I solved them. Via this blog
+  I hope I'll be able to help out my fellow struggling enthusiasts by
+  describing how I solved my challenges. Good luck to you all and remember,
   if everything fails use: 'sudo !!'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mvbakker.nl" # the base hostname & protocol for your site
