@@ -3,7 +3,7 @@ layout: post
 author: Michiel Bakker
 ---
 
-So I've been thinking about setting up my own cloud service for a while now. I think it is good to be a little selfhosted nowadays. Recently I bought an [UP-Board][upboard][UP-Board] and this little powerfull computer seemed just perfect for this project. In this post I will not walk you through all the steps specifically. However I will show you what manuals and instructions I used and what problems arose during the process and how I solved those. Also, being a beginner myself, I try to understand what is actually all happening and explain my findings to you. Probably I am not a 100% correct, but just trying to explain it to you helps me as well. Good luck and I hope you enjoy!
+So I've been thinking about setting up my own cloud service for a while now. I think it is good to be a little selfhosted nowadays. Recently I bought an [UP-Board][upboard] and this little powerfull computer seemed just perfect for this project. In this post I will not walk you through all the steps specifically. However I will show you what manuals and instructions I used and what problems arose during the process and how I solved those. Also, being a beginner myself, I try to understand what is actually all happening and explain my findings to you. Probably I am not a 100% correct, but just trying to explain it to you helps me as well. Good luck and I hope you enjoy!
 
 [upboard]: http://up-board.org
 
@@ -104,15 +104,21 @@ Well now you should look into your router and see if it supports port-forwarding
 ```terminal
 sudo nano /etc/apache2/ports.conf
 ```
+
 and add,
+
 ```nano
 Listen 'port-of-your-choice'
 ```
+
 Then go to,
+
 ```terminal
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
+
 and add,
+
 ```nano
 <VirtualHost *:port-of-your-choice>
   ServerAdmin webmaster@localhost
