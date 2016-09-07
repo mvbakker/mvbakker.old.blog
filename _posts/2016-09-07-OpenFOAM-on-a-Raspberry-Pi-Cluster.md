@@ -15,7 +15,7 @@ However, I still wanted to do this! Just because it seemed like a nice challenge
 * 2x a five-port switch (one 6-port switch would've been better but I had these laying around anyway)
 * Couple of LAN-cables
 
-I also build a rack in which I could mount them nicely out of some metal nuts and bolts and some perspex, see the photo below.
+I also build a rack in which I could mount them nicely out of some metal nuts and bolts and some perspex.
 
 [//]: # (PLAATJE VAN CLUSTER)
 
